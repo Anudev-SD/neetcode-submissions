@@ -1,5 +1,5 @@
 class Solution:
-    def encode(self, strs: List[str]) ->str:
+    def encode(self, strs: List[str]) ->str:    #encoding 
         res = []
         for s in strs:
             res.append(str(len(s)))
@@ -7,7 +7,7 @@ class Solution:
             res.append(s)
         return"".join(res)
 
-    def decode(self, s: str) ->List[str]:
+    def decode(self, s: str) ->List[str]:    #decoding
         res = []
         i = 0
 
